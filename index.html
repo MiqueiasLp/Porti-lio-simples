@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!--Não quis colocar foto ou projetos por que ainda não tenho foto boa ou projetos suficientes-->
+
+<body>
+  <!-- Introdução -->
+  <header class="intro">
+    <img src="perfil.jpg" alt="Foto de Perfil" class="perfil">
+    <h1>Miquéias Lopes</h1>
+    <p>Desenvolvedor Front-End apaixonado por tecnologia, design e inovação.</p>
+  </header>
+
+  <!-- Habilidades -->
+  <section class="habilidades">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React, Node.js</li>
+      <li>Design Responsivo</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <!-- Projetos -->
+  <section class="projetos">
+    <h2>Projetos</h2>
+    <div class="grid-projetos">
+      <div class="projeto">
+        <h3>Projeto 1</h3>
+        <p>Descrição breve do projeto.</p>
+        <a href="#">Ver mais</a>
+      </div>
+      <div class="projeto">
+        <h3>Projeto 2</h3>
+        <p>Descrição breve do projeto.</p>
+        <a href="#">Ver mais</a>
+      </div>
+      <div class="projeto">
+        <h3>Projeto 3</h3>
+        <p>Descrição breve do projeto.</p>
+        <a href="#">Ver mais</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experiências -->
+  <section class="experiencias">
+    <h2>Experiências</h2>
+    <ul>
+      <li>Empresa X - Desenvolvedor Frontend (2022 - Atual)</li>
+      <li>Empresa Y - Estágio em TI (2021 - 2022)</li>
+    </ul>
+  </section>
+
+  <!-- Contato -->
+  <section class="contato">
+    <h2>Contato</h2>
+    <p>Me encontre nas redes sociais:</p>
+    <div class="redes">
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+      <a href="#">Twitter</a>
+    </div>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu email" required>
+      <textarea placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <script>
+    document.querySelector("form").addEventListener("submit", function (e) {
+      e.preventDefault();
+      alert("Mensagem enviada com sucesso!");
+    });
+  </script>
+  <footer>
+    <p>&copy; 2025 Miquéias Lopes - Todos os direitos reservados</p>
+  </footer>
+</body>
+
+</html>
